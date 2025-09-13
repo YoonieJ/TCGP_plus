@@ -1,0 +1,1084 @@
+BEGIN_POKEMON
+Name: Bulbasaur
+ex: false
+Type: Grass
+HP: 70
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fire
+PrevEvo: None
+NextEvo: Ivysaur
+Skills: Vine Whip,40,Grass:1|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Ivysaur
+ex: false
+Type: Grass
+HP: 90
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Fire
+PrevEvo: Bulbasaur
+NextEvo: Venusaur, Venusaur ex
+Skills: Razor Leaf,40,Grass:1|Colorless:2,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Venusaur
+ex: false
+Type: Grass
+HP: 160
+Stage: 2
+CanEvolve: false
+RetreatCost: 3
+Weakness: Fire
+PrevEvo: Ivysaur
+NextEvo: None
+Skills: Mega Drain,80,Grass:2|Colorless:2,0,false,0
+SkillEffect: Heal:30
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Venusaur ex
+ex: true
+Type: Grass
+HP: 190
+Stage: 2
+CanEvolve: false
+RetreatCost: 3
+Weakness: Fire
+PrevEvo: Ivysaur
+NextEvo: None
+Skills: Razor Leaf,60,Grass:2|Colorless:2,0,false,0; Giant Bloom,100,Grass:2|Colorless:2,0,false,0
+SkillEffect: None; Heal:30
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Weedle
+ex: false
+Type: Grass
+HP: 50
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fire
+PrevEvo: None
+NextEvo: Kakuna
+Skills: Sting,20,Grass:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Kakuna
+ex: false
+Type: Grass
+HP: 80
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Fire
+PrevEvo: Weedle
+NextEvo: Beedrill
+Skills: Bug Bite,30,Grass:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Beedrill
+ex: false
+Type: Grass
+HP: 120
+Stage: 2
+CanEvolve: false
+RetreatCost: 3
+Weakness: Fire
+PrevEvo: Kakuna
+NextEvo: None
+Skills: Sharp Sting,70,Grass:2,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Venonat
+ex: false
+Type: Grass
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fire
+PrevEvo: None
+NextEvo: Venomoth
+Skills: Tackle,20,Grass:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Venomoth
+ex: false
+Type: Grass
+HP: 80
+Stage: 1
+CanEvolve: false
+RetreatCost: 1
+Weakness: Fire
+PrevEvo: Venonat
+NextEvo: None
+Skills: Poison Powder,30,Grass:1,0,false,0
+SkillEffect: PoisonOpp
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Scyther
+ex: false
+Type: Grass
+HP: 70
+Stage: 0
+CanEvolve: false
+RetreatCost: 1
+Weakness: Fire
+PrevEvo: None
+NextEvo: None
+Skills: Sharp Scythe,30,Grass:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Salandit
+ex: false
+Type: Fire
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Water
+PrevEvo: None
+NextEvo: Salazzle
+Skills: Scratch,20,Fire:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Salazzle
+ex: false
+Type: Fire
+HP: 90
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Water
+PrevEvo: Salandit
+NextEvo: None
+Skills: Fire Claws,60,Fire:1|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Tentacool
+ex: false
+Type: Water
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Electric
+PrevEvo: None
+NextEvo: Tentacruel
+Skills: Gentle Slap,20,Water:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Tentacruel
+ex: false
+Type: Water
+HP: 110
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Electric
+PrevEvo: Tentacool
+NextEvo: None
+Skills: Poison Tentacles,50,Water:1|Colorless:1,0,false,0
+SkillEffect: poisonOpp
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Shellder
+ex: false
+Type: Water
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Electric
+PrevEvo: None
+NextEvo: Cloyster
+Skills: Tongue Slap,20,Water:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Cloyster
+ex: false
+Type: Water
+HP: 120
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Electric
+PrevEvo: Shellder
+NextEvo: None
+Skills: Surf,70,Water:2|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: reduceDmg:10
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Krabby
+ex: false
+Type: Water
+HP: 70
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Electric
+PrevEvo: None
+NextEvo: Kingler
+Skills: Vise Grip,40,Water:1|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Kingler
+ex: false
+Type: Water
+HP: 120
+Stage: 1
+CanEvolve: false
+RetreatCost: 3
+Weakness: Electric
+PrevEvo: Krabby
+NextEvo: None
+Skills: KO Crab,80+,Water:2|Colorless:1,0,true,2
+SkillEffect: CoinFlip:40
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Vaporeon
+ex: false
+Type: Water
+HP: 130
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Electric
+PrevEvo: Eevee
+NextEvo: None
+Skills: Bubble Drain,60,Water:1|Colorless:2,0,false,0
+SkillEffect: Heal:30
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Articuno
+ex: false
+Type: Water
+HP: 100
+Stage: 0
+CanEvolve: false
+RetreatCost: 2
+Weakness: Electric
+PrevEvo: None
+NextEvo: None
+Skills: Ice Beam,60,Water:2|Colorless:1,0,true,1
+SkillEffect: CoinFlip:ParalyzeOpp
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Articuno ex
+ex: true
+Type: Water
+HP: 140
+Stage: 0
+CanEvolve: false
+RetreatCost: 2
+Weakness: Electric
+PrevEvo: None
+NextEvo: None
+Skills: Ice Wing,40,Water:1|Colorless:1,0,false,0; Blizzard,80,Water:3,0,false,0
+SkillEffect: BenchedDmg:10
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Tynamo
+ex: false
+Type: Electric
+HP: 30
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fighting
+PrevEvo: None
+NextEvo: Eelektrik
+Skills: Tiny Charge,30,Lightning:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Eelektrik
+ex: false
+Type: Electric
+HP: 80
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Fighting
+PrevEvo: Tynamo
+NextEvo: Eelektross
+Skills: Head Bolt,40,Lightning:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Eelektross
+ex: false
+Type: Electric
+HP: 140
+Stage: 2
+CanEvolve: false
+RetreatCost: 3
+Weakness: Fighting
+PrevEvo: Eelektrik
+NextEvo: None
+Skills: Thunder Fang,80,Lightning:2|Colorless:1,0,true,1
+SkillEffect: CoinFlip:paralyzeOpp
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Gastly
+ex: false
+Type: Psychic
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Darkness
+PrevEvo:
+NextEvo: Haunter
+Skills: Suffocating Gas,20,Psychic:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Haunter
+ex: false
+Type: Psychic
+HP: 80
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: Gastly
+NextEvo: Gengar, Gengar ex
+Skills: Will-O-Wisp,30,Psychic:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Gengar
+ex: false
+Type: Psychic
+HP: 130
+Stage: 2
+CanEvolve: false
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: Haunter
+NextEvo: None
+Skills: Bother,50,Psychic:1,0,false,0
+SkillEffect: banSupporter
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Gengar ex
+ex: true
+Type: Psychic
+HP: 170
+Stage: 2
+CanEvolve: false
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: Haunter
+NextEvo: None
+Skills: Spooky Shot,100,Psychic:3,0,false,0
+SkillEffect: None
+Abilities: whenActive:banSupporter
+
+BEGIN_POKEMON
+Name: Mr. Mime
+ex: false
+Type: Psychic
+HP: 80
+Stage: 0
+CanEvolve: false
+RetreatCost: 1
+Weakness: Darkness
+PrevEvo: None
+NextEvo: None
+Skills: Barrier Attack,30,Psychic:1|Colorless:1,0,false,0
+SkillEffect: reduceDmg:20
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Jynx
+ex: false
+Type: Psychic
+HP: 80
+Stage: 0
+CanEvolve: false
+RetreatCost: 1
+Weakness: Darkness
+PrevEvo: None
+NextEvo: None
+Skills: Psychic,30+,Psychic:1|Colorless:1,0,false,0
+SkillEffect: energyAttached:20
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Mewtwo
+ex: false
+Type: Psychic
+HP: 120
+Stage: 0
+CanEvolve: false
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: None
+NextEvo: None
+Skills: Power Blast,120,Psychic:2|Colorless:2,2,false,0
+SkillEffect: dropEnergy:2, Pscychic
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Mewtwo ex
+ex: true
+Type: Psychic
+HP: 150
+Stage: 0
+CanEvolve: false
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: None
+NextEvo: None
+Skills: Psychic Sphere,50,Psychic:1|Colorless:1,0,false,0; Psydrive,150,Psychic:2|Colorless:2,2,false,0
+SkillEffect: None; dropEnergy:2, Pscychic
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Ralts
+ex: false
+Type: Psychic
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Darkness
+PrevEvo: None
+NextEvo: Kirlia
+Skills: Ram,10,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Kirlia
+ex: false
+Type: Psychic
+HP: 80
+Stage: 1
+CanEvolve: true
+RetreatCost: 1
+Weakness: Darkness
+PrevEvo: Ralts
+NextEvo: Gardevoir
+Skills: Smack,30,Psychic:1|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Gardevoir
+ex: false
+Type: Psychic
+HP: 110
+Stage: 2
+CanEvolve: false
+RetreatCost: 2
+Weakness: Darkness
+PrevEvo: Kirlia
+NextEvo: None
+Skills: Psyshot,60,Psychic:2|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: attachEnergy: 1, Psychic, active
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Cubone
+ex: false
+Type: Fighting
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Psychic
+PrevEvo: None
+NextEvo: Marowak, Marowak ex
+Skills: Growl,0,Colorless:1,0,false,0
+SkillEffect: reduceDmg:20
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Marowak
+ex: false
+Type: Fighting
+HP: 100
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Psychic
+PrevEvo: Cubone
+NextEvo: Marowak ex
+Skills: Bone Beatdown,40,Fighting:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Marowak ex
+ex: true
+Type: Fighting
+HP: 140
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Psychic
+PrevEvo: Cubone
+NextEvo: None
+Skills: Bonemerang,0,Fighting:2,0,true,2
+SkillEffect: CoinFlip:80
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Hitmonlee
+ex: false
+Type: Fighting
+HP: 80
+Stage: 0
+CanEvolve: false
+RetreatCost: 1
+Weakness: Psychic
+PrevEvo: None
+NextEvo: None
+Skills: Stretch Kick,80,Fighting:1,0,false,0
+SkillEffect: benchedDmg:30
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Rhyhorn
+ex: false
+Type: Fighting
+HP: 80
+Stage: 0
+CanEvolve: true
+RetreatCost: 2
+Weakness: Grass
+PrevEvo: None
+NextEvo: Rhydon
+Skills: Tackle,60,Fighting:2|Colorless:1,0,false,0
+SkillEffect: None
+Abilities:
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Rhydon
+ex: false
+Type: Fighting
+HP: 120
+Stage: 1
+CanEvolve: false
+RetreatCost: 3
+Weakness: Grass
+PrevEvo: Rhyhorn
+NextEvo: None
+Skills: Horn Drill,100,Fighting:3|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Zubat
+ex: false
+Type: Darkness
+HP: 50
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fighting
+PrevEvo: None
+NextEvo: Golbat
+Skills: Glide,10,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Golbat
+ex: false
+Type: Darkness
+HP: 40
+Stage: 1
+CanEvolve: false
+RetreatCost: 1
+Weakness: Fighting
+PrevEvo: Zubat
+NextEvo: None
+Skills: Wing Attack,40,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Grimer
+ex: false
+Type: Darkness
+HP: 70
+Stage: 0
+CanEvolve: true
+RetreatCost: 2
+Weakness: Psychic
+PrevEvo: None
+NextEvo: Muk
+Skills: Poison Gas,10,Darkness:1,0,false,0
+SkillEffect: PoisonOpp
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Muk
+ex: false
+Type: Darkness
+HP: 130
+Stage: 1
+CanEvolve: false
+RetreatCost: 3
+Weakness: Psychic
+PrevEvo: Grimer
+NextEvo: None
+Skills: Venoshock,70+,Darkness:2|Colorless:1,0,false,0
+SkillEffect: dmgIfPoisoned:50
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Koffing
+ex: false
+Type: Darkness
+HP: 70
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Psychic
+PrevEvo: None
+NextEvo: Weezing
+Skills: Suffocating Gas,20,Darkness:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Weezing
+ex: false
+Type: Darkness
+HP: 110
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Psychic
+PrevEvo: Koffing
+NextEvo: None
+Skills: Tackle,30,Darkness:1,0,false,0
+SkillEffect: None
+Abilities: whenActive:poisonOpp
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Dratini
+ex: false
+Type: Dragon
+HP: 70
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fairy
+PrevEvo: None
+NextEvo: Dragonair
+Skills: Ram,70,Water:1|Lightning:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Dragonair
+ex: false
+Type: Dragon
+HP: 100
+Stage: 1
+CanEvolve: true
+RetreatCost: 2
+Weakness: Fairy
+PrevEvo: Dratini
+NextEvo: Dragonite
+Skills: Tail Smack,80,Water:1|Lightning:1|Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Dragonite
+ex: false
+Type: Dragon
+HP: 160
+Stage: 2
+CanEvolve: false
+RetreatCost: 3
+Weakness: Fairy
+PrevEvo: Dragonair
+NextEvo: None
+Skills: Draco Meteor,0,Water:1|Lightning:1|Colorless:2,0,false,0
+SkillEffect: randomDmg:50, 4
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Pidgey
+ex: false
+Type: Colorless
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Lightning
+PrevEvo: None
+NextEvo: Pidgeotto
+Skills: Gust,10,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Pidgeotto
+ex: false
+Type: Colorless
+HP: 80
+Stage: 1
+CanEvolve: true
+RetreatCost: 1
+Weakness: Lightning
+PrevEvo: Pidgey
+NextEvo: Pidgeot
+Skills: Gust,30,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Pidgeot
+ex: false
+Type: Colorless
+HP: 130
+Stage: 2
+CanEvolve: false
+RetreatCost: 2
+Weakness: Lightning
+PrevEvo: Pidgeotto
+NextEvo: None
+Skills: Wing Attack,70,Colorless:2,0,false,0
+SkillEffect: None
+Abilities: switchOut
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Lickitung
+ex: false
+Type: Colorless
+HP: 90
+Stage: 0
+CanEvolve: false
+RetreatCost: 2
+Weakness: Fighting
+PrevEvo: None
+NextEvo: None
+Skills: Continuous Lick,60,Colorless:3,0,true,MAX_FlIP
+SkillEffect: CoinFlip:60
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Eevee
+ex: false
+Type: Colorless
+HP: 60
+Stage: 0
+CanEvolve: true
+RetreatCost: 1
+Weakness: Fighting
+PrevEvo: None
+NextEvo: Vaporeon
+Skills: Tackle,20,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Porygon
+ex: false
+Type: Colorless
+HP: 50
+Stage: 0
+CanEvolve: false
+RetreatCost: 1
+Weakness: Fighting
+PrevEvo: None
+NextEvo: None
+Skills: Sharpen,20,Colorless:1,0,false,0
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Aerodactyl
+ex: false
+Type: Colorless
+HP: 100
+Stage: 1
+CanEvolve: false
+RetreatCost: 2
+Weakness: Lightning
+PrevEvo: Old Amber
+NextEvo: None
+Skills: Primal Wingbeat,0,Colorless:2,0,true,1
+SkillEffect: shuffleBack
+Abilities: CoinFlip:reShuffle
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Old Amber
+ex: false
+Type: Colorless
+HP: 40
+Stage: 0
+CanEvolve: true
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: Aerodactyl
+Skills: None
+SkillEffect: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Koga
+ex: false
+Type: Supporter
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Giovanni
+ex: false
+Type: Supporter
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness:
+PrevEvo: None
+NextEvo: None
+Skills: extraDmg:10
+SkillEffect: None
+Abilities: None
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Sabrina
+ex: false
+Type: Supporter
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: SupporterEffect|Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Professor's Research
+ex: false
+Type: Supporter
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: DrawCards|Draw 2 cards.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Potion
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: HealEffect|Heal 20 damage from 1 of your Pokémon.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: X Speed
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: RetreatBoost|During this turn, the Retreat Cost of your Active Pokémon is 1 less.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Hand Scope
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: RevealHand|Your opponent reveals their hand.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Pokedex
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: LookTop3|Look at the top 3 cards of your deck.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Poke Ball
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: FetchBasic|Put 1 random Basic Pokémon from your deck into your hand.
+END_POKEMON
+
+BEGIN_POKEMON
+Name: Red Card
+ex: false
+Type: Item
+HP: 0
+Stage: 0
+CanEvolve: false
+RetreatCost: 0
+Weakness: None
+PrevEvo: None
+NextEvo: None
+Skills: None
+SkillEffect: None
+Abilities: ShuffleDraw|Your opponent shuffles their hand into their deck and draws 3 cards.
+END_POKEMON

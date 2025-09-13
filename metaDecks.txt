@@ -1,0 +1,64 @@
+BEGIN_DECK
+Bulbasaur, 2
+Ivysaur, 2
+Venusaur ex, 2
+Mewtwo ex, 2
+Poke Ball, 2
+Potion, 2
+X Speed, 2
+Sabrina, 2
+Professor's Research, 2
+Scyther, 2
+END_DECK
+
+BEGIN_DECK
+Tentacool, 2
+Tentacruel, 2
+Cloyster, 2
+Kingler, 2
+Vaporeon, 2
+Poke Ball, 2
+Potion, 2
+X Speed, 2
+Sabrina, 2
+Professor's Research, 2
+END_DECK
+
+BEGIN_DECK
+Gastly, 2
+Haunter, 2
+Gengar ex, 2
+Mewtwo ex, 2
+Jynx, 2
+Poke Ball, 2
+Potion, 2
+X Speed, 2
+Sabrina, 2
+Professor's Research, 2
+END_DECK
+
+BEGIN_DECK
+Dratini, 2
+Dragonair, 2
+Dragonite, 2
+Pidgey, 2
+Pidgeot, 2
+Poke Ball, 2
+Potion, 2
+X Speed, 2
+Sabrina, 2
+Professor's Research, 2
+END_DECK
+
+BEGIN_DECK
+Articuno ex, 2
+Tentacruel, 2
+Cloyster, 2
+Vaporeon, 2
+Shellder, 2
+Krabby, 2
+Kingler, 2
+Potion, 2
+Poke Ball, 2
+Professor's Research, 2
+END_DECK
